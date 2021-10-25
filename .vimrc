@@ -17,7 +17,7 @@ syntax on
 colo gruvbox
 set background=dark
 
-" general settings
+" general config
 set number
 set autoindent
 set smartindent
@@ -38,9 +38,12 @@ set t_u7=
 nnoremap <SPACE> <Nop>
 let mapleader=" "
 
-" map split width to leader - +
+" map split width to leader - =
+" map split height to leader [ ]
 nnoremap <leader>- :10winc < <cr>
-nnoremap <leader>+ :10winc > <cr>
+nnoremap <leader>= :10winc > <cr>
+nnoremap <leader>[ :5winc - <cr>
+nnoremap <leader>] :5winc + <cr>
 
 " map write to leader w
 nnoremap <leader>w :w<cr>
@@ -54,7 +57,7 @@ nnoremap <leader>n :NERDTreeToggle<cr>
 " ale toggle
 nnoremap <leader>a :ALEToggle<cr>
 
-" fzf toggle
+" fzf toggle for current directory and home directory
 nnoremap <leader>f :FZF<cr>
 nnoremap <leader>F :FZF ~<cr>
 
@@ -89,6 +92,7 @@ Plug 'preservim/nerdtree'
 let g:NERDTreeShowHidden=1
 
 " gruvbox
+" move ~/.vim/plugged/gruvbox/colors to ~/.vim
 Plug'morhetz/gruvbox'
 
 " auto complete

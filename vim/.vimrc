@@ -93,7 +93,7 @@ let g:NERDTreeShowHidden=1
 
 " gruvbox
 " move ~/.vim/plugged/gruvbox/colors to ~/.vim
-Plug'morhetz/gruvbox'
+Plug 'morhetz/gruvbox'
 
 " auto complete
 Plug 'vim-scripts/AutoComplPop'

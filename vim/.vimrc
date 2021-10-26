@@ -84,35 +84,36 @@ set laststatus=2
 " PLUGINS
 """""""""""""""""""""""""""""""""""""""""""
 
-" plug vim directory
+" vim-plug plugin manager
+" plugin directory
 call plug#begin('~/.vim/plugged')
 
-" nerdtree
+" nerdtree file tree explorer
 Plug 'preservim/nerdtree'
 let g:NERDTreeShowHidden=1
 
-" gruvbox
+" gruvbox color theme
 " move ~/.vim/plugged/gruvbox/colors to ~/.vim
 Plug 'morhetz/gruvbox'
 
-" auto complete
+" auto complete pop up menu
 Plug 'vim-scripts/AutoComplPop'
 set shortmess+=c
 set completeopt=menuone,longest
 
-" color display
+" display colors in buffer 
 Plug 'ap/vim-css-color'
 
-" surround
+" surround mappings for easy surrounding  pairs editing
 Plug 'tpope/vim-surround'
 
-" emmet
+" emmet html snippet expansion
 Plug 'mattn/emmet-vim'
 
-" ale
+" ale linting/lsp engine
 Plug 'dense-analysis/ale'
 
-" fzf
+" fzf fuzzy finding search using ag 
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 let $FZF_DEFAULT_COMMAND='ag -l --path-to-ignore ~/.ignore --nocolor --hidden -g ""'
 

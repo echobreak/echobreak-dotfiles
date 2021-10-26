@@ -104,7 +104,7 @@ set completeopt=menuone,longest
 " display colors in buffer 
 Plug 'ap/vim-css-color'
 
-" surround mappings for easy surrounding  pairs editing
+" surround mappings for easy surrounding pairs editing
 Plug 'tpope/vim-surround'
 
 " emmet html snippet expansion

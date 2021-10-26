@@ -61,6 +61,9 @@ nnoremap <leader>a :ALEToggle<cr>
 nnoremap <leader>f :FZF<cr>
 nnoremap <leader>F :FZF ~<cr>
 
+" :term to leader t
+nnoremap <leader>t :term<cr>
+
 """""""""""""""""""""""""""""""""""""""""""
 " STATUS BAR 
 """""""""""""""""""""""""""""""""""""""""""

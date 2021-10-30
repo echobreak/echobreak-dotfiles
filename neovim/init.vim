@@ -54,6 +54,12 @@ nnoremap <leader>F :FZF ~<cr>
 " edit coc snippets
 nnoremap <leader>ss :CocCommand snippets.editSnippets<cr>
 
+" split and terminal mappings
+nnoremap <leader>s :split<cr>
+nnoremap <leader>v :vsplit<cr>
+nnoremap <leader>t :terminal<cr>
+tnoremap <Esc> <C-\><C-n>
+
 """""""""""""""""""""""""""""""""""""""""""
 " STATUS BAR 
 """""""""""""""""""""""""""""""""""""""""""

@@ -126,7 +126,9 @@ let g:coc_global_extensions = [
   \ 'coc-prettier', 
   \ 'coc-json',
   \ 'coc-pyright',
-  \ 'coc-clangd'
+  \ 'coc-clangd',
+  \ 'coc-sql',
+  \ 'coc-sh'
   \ ]
 
 set hidden 

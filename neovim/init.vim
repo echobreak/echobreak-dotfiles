@@ -5,8 +5,8 @@
 
 " theme settings
 syntax on
-colo gruvbox
-set background=dark
+" colo gruvbox
+" set background=dark
 
 " general config
 set number
@@ -19,6 +19,7 @@ set hlsearch
 set cursorline
 set clipboard=unnamedplus
 set shortmess+=c
+let g:coc_disable_startup_warning = 1
 
 " powershell starting in replace mode fix
 set t_u7=
@@ -41,6 +42,9 @@ nnoremap <leader>] :5winc + <cr>
 " map write to leader w
 nnoremap <leader>w :w<cr>
 
+" map quit to leader q
+nnoremap <leader>q :q<cr> 
+ 
 " map nohlsearch to leader *
 nnoremap <leader>* :noh<cr>
 
@@ -59,6 +63,10 @@ nnoremap <leader>s :split<cr>
 nnoremap <leader>v :vsplit<cr>
 nnoremap <leader>t :terminal<cr>
 tnoremap <Esc> <C-\><C-n>
+
+" sort
+nnoremap <leader>u :%!sort -u<cr>
+nnoremap <leader>i :%!sort -u --version-sort<cr>
 
 """""""""""""""""""""""""""""""""""""""""""
 " STATUS BAR 
@@ -169,7 +177,7 @@ nnoremap <silent> K :call <SID>show_documentation()<CR>
 
 function! s:show_documentation()
   if (index(['vim','help'], &filetype) >= 0)
-    execute 'h '.expand('<cword>')
+    execute'h '.expand('<cword>')
   else
     call CocAction('doHover')
   endif

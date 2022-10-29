@@ -49,7 +49,7 @@ nnoremap <leader>q :q<cr>
 nnoremap <leader>* :noh<cr>
 
 " nerdtree toggle
-nnoremap <leader>n :NERDTreeToggle<cr>
+nnoremap <leader>N :NERDTreeToggle<cr>
 
 " fzf toggle for current directory and home directory
 nnoremap <leader>f :FZF<cr>
@@ -61,7 +61,12 @@ nnoremap <leader>ss :CocCommand snippets.editSnippets<cr>
 " split and terminal mappings
 nnoremap <leader>s :split<cr>
 nnoremap <leader>v :vsplit<cr>
-nnoremap <leader>t :terminal<cr>
+nnoremap <leader>T :terminal<cr>
+nnoremap <leader>t :$tabnew<cr>
+nnoremap <leader>n :tabnext<cr>
+nnoremap <leader>tc :tabclose<cr>
+nnoremap <leader>t5 :-tabmove<cr>
+nnoremap <leader>t6 :+tabmove<cr>
 tnoremap <Esc> <C-\><C-n>
 
 " sort

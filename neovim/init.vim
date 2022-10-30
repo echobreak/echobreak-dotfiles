@@ -1,6 +1,6 @@
 
 """""""""""""""""""""""""""""""""""""""""""
-" GENERAL
+" GENERAL SETTINGS
 """""""""""""""""""""""""""""""""""""""""""
 
 " theme settings
@@ -41,10 +41,11 @@ nnoremap <leader>] :5winc + <cr>
 
 " map write to leader w
 nnoremap <leader>w :w<cr>
+nnoremap <leader>W :wq<cr>
 
 " map quit to leader q
 nnoremap <leader>q :q<cr> 
- 
+
 " map nohlsearch to leader *
 nnoremap <leader>* :noh<cr>
 
@@ -56,7 +57,7 @@ nnoremap <leader>f :FZF<cr>
 nnoremap <leader>F :FZF ~<cr>
 
 " edit coc snippets
-nnoremap <leader>ss :CocCommand snippets.editSnippets<cr>
+nnoremap <leader>s :CocCommand snippets.editSnippets<cr>
 
 " split and terminal mappings
 nnoremap <leader>s :split<cr>
@@ -141,6 +142,11 @@ let g:coc_global_extensions = [
   \ 'coc-pyright',
   \ 'coc-clangd',
   \ 'coc-sql',
+  \ 'coc-html',
+  \ 'coc-json',
+  \ 'coc-phpactor',
+  \ 'coc-xml',
+  \ 'coc-css',
   \ 'coc-sh'
   \ ]
 

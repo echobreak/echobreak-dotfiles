@@ -143,7 +143,6 @@ let g:coc_global_extensions = [
   \ 'coc-clangd',
   \ 'coc-sql',
   \ 'coc-html',
-  \ 'coc-json',
   \ 'coc-phpactor',
   \ 'coc-xml',
   \ 'coc-css',

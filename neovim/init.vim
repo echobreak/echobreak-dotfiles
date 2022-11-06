@@ -3,12 +3,8 @@
 " GENERAL SETTINGS
 """""""""""""""""""""""""""""""""""""""""""
 
-" theme settings
-syntax on
-" colo gruvbox
-" set background=dark
-
 " general config
+syntax on
 set number
 set autoindent
 set smartindent

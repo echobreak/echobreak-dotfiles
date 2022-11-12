@@ -113,9 +113,6 @@ Plug 'jiangmiao/auto-pairs'
 " surround mappings for easy surrounding pairs editing
 Plug 'tpope/vim-surround'
 
-" emmet html snippet expansion
-Plug 'mattn/emmet-vim'
-
 " color css
 Plug 'ap/vim-css-color'
 

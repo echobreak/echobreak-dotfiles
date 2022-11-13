@@ -53,7 +53,7 @@ nnoremap <leader>f :FZF<cr>
 nnoremap <leader>F :FZF ~<cr>
 
 " edit coc snippets
-nnoremap <leader>s :CocCommand snippets.editSnippets<cr>
+nnoremap <leader>S :CocCommand snippets.editSnippets<cr>
 
 " split and terminal mappings
 nnoremap <leader>s :split<cr>

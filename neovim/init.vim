@@ -139,7 +139,8 @@ let g:coc_global_extensions = [
   \ 'coc-phpactor',
   \ 'coc-xml',
   \ 'coc-css',
-  \ 'coc-sh'
+  \ 'coc-sh',
+  \ 'coc-go'
   \ ]
 
 set hidden 

@@ -3,5 +3,5 @@ cd ..
 }
 
 b(){
-batcat --paging=never --theme=base16 $1
+batcat --paging=never $1
 }

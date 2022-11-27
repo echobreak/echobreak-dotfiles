@@ -1,0 +1,7 @@
+c (){
+cd ..
+}
+
+b(){
+batcat --paging=never --theme=base16 $1
+}

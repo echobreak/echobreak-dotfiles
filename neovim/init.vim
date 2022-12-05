@@ -15,6 +15,9 @@ set hlsearch
 set cursorline
 set clipboard=unnamedplus
 set shortmess+=c
+set breakindent
+set formatoptions=1
+set lbr
 let g:coc_disable_startup_warning = 1
 
 " powershell starting in replace mode fix
